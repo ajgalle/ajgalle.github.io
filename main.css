@@ -1,0 +1,58 @@
+body{
+color:white;
+background-color:black;
+}
+
+.logTable{
+   width:80%;
+   border: 1px solid white;
+   margin: 5%;
+ 
+}
+
+.logTable td{
+	border:1px solid white;
+
+}
+
+
+
+.cTable{
+border:0px;
+padding:5px;
+margin:50px;
+}
+
+
+.port{
+	/*height:300px;
+	width:300px;*/
+	  border-radius: 15%;
+	  
+	  margin:5px;
+}
+
+h1{
+  text-align:center;
+  font-family: 'Varela Round', cursive, sans-serif;
+
+}
+
+
+.headshot{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  margin:14px;
+  float:left;
+  
+}
+
+
+
+.headerimg{
+  display:block;
+  width: 100%;
+  }
+
+

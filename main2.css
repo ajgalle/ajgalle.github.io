@@ -1,0 +1,38 @@
+body{
+  color:white;
+  background-color:gray;
+}
+
+h1{
+  text-align:center;
+  font-family: 'Varela Round', cursive, sans-serif;
+}
+.port{
+  padding:15px;
+  margin:15px;
+  width:50%;
+}
+.headerimg{
+  display:block;
+  width: 100%;
+  }
+
+
+.signature{
+  font-family: cursive;
+  
+}
+
+.headshot{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  float:left;
+}
+
+.followme{
+  width:150px;
+  height:75px;
+  border-radius: 15%;
+  margin:15px;
+}

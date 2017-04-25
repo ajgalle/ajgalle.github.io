@@ -1,0 +1,37 @@
+body{
+  color:white;
+  background-color:black;
+}
+
+h1{
+  text-align:center;
+  font-family: 'Varela Round', cursive, sans-serif;
+}
+.port{
+  border: solid lightgrey;
+  padding:5%;
+  margin:5%;
+  width:100%;
+}
+.headerimg{
+  display:block;
+  width: 100%;
+  }
+
+.followme{
+  width:150px;
+  height:75px;
+  border-radius: 15%;
+  margin:15px;
+}
+
+.followMeLinks{
+	font-size: 4em;
+	padding: 15px;
+}
+.headshot{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  float:left;
+}
