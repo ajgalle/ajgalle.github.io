@@ -1,116 +1,141 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
-  	
-	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-	<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  	<title>Andrew J. Galle | Portfolio Page</title>
 
-	<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- 
   <meta charset="utf-8">
-  
-  	<!-- This should help with mobile responsiveness -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-   
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-    <link href="main.css" rel="stylesheet">
+ 
+  <link href="main.css" rel="stylesheet">
+
 </head>
 
+
 <body>
-
-<div class="container.fluid">
-
 <nav>
-<div class="btn-group btn-group-justified">
-  <div class="btn-group">
-    <a href="#progress"><button type="button" class="btn btn-primary">Progress</button></a>
-  </div>
-  <div class="btn-group">
-    <a href="#portfolio"><button type="button" class="btn btn-primary">Portfolio</button></a>
-  </div>
-  <div class="btn-group">
-    <a href="#about"><button type="button" class="btn btn-primary">About</button></a>
-  </div>
-    <div class="btn-group">
-    <a href="#contact"><button type="button" class="btn btn-primary">Contact</button></a>
-  </div>
-</div>
+  <a href="#Portfolio" class="flexitem">Portfolio</a>
+  <a href="#Contact" class="flexitem">Contact</a>
+  <a href="#Progress" class="flexitem">Progress Log</a>
 </nav>
 
+<h1> Andrew.j.galle </h1>
   
-  <img class="headerimg" src="http://andrewgalle.elementfx.com/images/norfolk.jpg" alt="banner">
-  </header>
+<div class="headshot">
+
   
-  <article>
-    <h1> Andrew.j.galle </h1>
-    <a name ="progress"></a></br>
-   <h2> Progress  </h2>
-   <table class="text-center, logTable">
-   	<tr>
+  <p> Hi, I'm Andrew. I make all kinds of web projects that perform well across all devices and screen sizes. I'm in Norfolk, Virginia. Please take a look at some of my recent work.</p> 
+
+  <img  src="images/headshot.jpg" alt ="Andrew J. Galle">
+
+</div>
+
+<h2 id="Portfolio"> Portfolio </h2>
+<div class="gallery">
+  <div class="view view-fourth">  
+     <img src="images/googleLogo.png" alt="Google Homepage Project"/>  
+     <div class="mask">  
+     <h2>Google Homepage</h2>  
+     <p>Use CSS3 and HTML5 to mimic Google's homepage. [Odin Project task]
+         </p>  
+         <a href="http://htmlpreview.github.com/?https://github.com/ajgalle/google-homepage/blob/master/index.html" class="info">Project</a> / <a href="https://github.com/ajgalle/google-homepage" class="info"> Code</a>
+     </div> 
+  </div> 
+<div class="view view-fourth">  
+     <img src="images/sanshiro.jpg" alt="freeCodeCamp Sanshiro Project" />  
+     <div class="mask">  
+     <h2>Tribute Page</h2>  
+     <p>A freeCodeCamp project showcasing HTML5,CSS3,Bootstrap</p>  
+         <a href="https://codepen.io/ajgalle/full/qrKgpO/" class="info">View on CodePen</a>  
+     </div> 
+  </div> 
+<div class="view view-fourth">  
+     <img src="images/comingsoon.jpg" alt="Coming Soon!" />  
+     <div class="mask">  
+     <h2>Random Quote Generator</h2>  
+     <p>A JavaScript, JQuery and Flexbox responsive page to proivde quotes from APIs.</p>  
+         <a href="#" class="info">Coming Soon!</a>  
+     </div> 
+  </div> 
+<div class="view view-fourth">  
+     <img src="images/comingsoon.jpg" alt="Coming Soon!"/>  
+     <div class="mask">  
+     <h2>Coming Soon</h2>  
+     <p>As soon as possible!</p>  
+         <a href="#" class="info">Thanks for watching!</a>  
+     </div> 
+  </div> 
+<div class="view view-fourth">  
+     <img src="images/comingsoon.jpg" alt="Coming Soon!"/>  
+     <div class="mask">  
+     <h2>Coming soon!</h2>  
+     <p>As soon as Possible!</p>  
+         <a href="#" class="info">Thanks for watching!</a>  
+     </div> 
+  </div> 
+  <div class="view view-fourth">  
+     <img src="images/comingsoon.jpg" alt="Coming Soon!"/>  
+     <div class="mask">  
+     <h2>Coming soon!</h2>  
+     <p>As soon as possilbe!</p>  
+         <a href="#" class="info">Thanks for watching!</a>  
+     </div> 
+  </div> 
+</div>
+
+
+<h2 id ="Contact">Contact</h2>
+<table class="contactTable">
+  <tr>
+    <td><a href="mailto:agalle@gmu.edu"><img alt="email me" src="images/email.png" height=200 width=200></a><br></td>
+<td> Please feel free to send me an email. </td>  
+  </tr>
+  <tr><td> Also, you can follow my progress and view my code below. </td>
+   <td>   <a href="https://github.com/ajgalle"><img class="logo" alt="GitHub" src="images/github.png"></a><br>
+  <a href="https://www.freecodecamp.com/ajgalle"><img class="logo" alt="freeCodeCamp" src="images/freeCodeCamp.jpg"></a><br>
+    <a href="https://www.theodinproject.com/users/72753"><img class="logo" alt="The Odin Project" src="images/odin.png"></a><br>
+  </td>
+  </tr>
+</table>
+
+
+  
+<h2 id="Progress"> Progress Log </h2>
+ 
+ <table class="logTable">
+    <tr>
+      <td>5/04/2017</td>
+      <td>Finally I am ready to start making new projects with freeCodeCamp that use APIs, JavaScript, and more! They estimate it will take over 100 hours to complete these tasks. I redesigned the site today to prepare to showcase them.  Now the site uses Flexbox and some CSS3 animations. </td>
+   </tr>
+    <tr>
       <td>5/02/2017</td>
-      <td>Today I finally finished the last of the "think like a programmer" tasks on freeCodeCamp.  That's things like using for loops to iterate through arrays, reversing strings, getting my feet wet with regular expressions and other basic algorithim concepts.  I'm very  much looking forward to building something so I can apply all this.  <i>  </td>
-    </tr>
+      <td>Today I finally finished the last of the "think like a programmer" tasks on freeCodeCamp.  That's things like using for loops to iterate through arrays, reversing strings, getting my feet wet with regular expressions and other basic algorithim concepts.  I'm very  much looking forward to building something so I can apply all this.   </td>
+   </tr>
    <tr>
       <td>4/30/2017</td>
-      <td>To get more experience with using Git and Gitcommits from the command line in linux, I've transitioned this page to githubpages. I will miss my cPanel capable site, but it should pay off in the long run. <i>  </td>
+      <td>To get more experience with using Git and Gitcommits from the command line in linux, I've transitioned this page to githubpages. I will miss my cPanel capable site, but it should pay off in the long run.  </td>
     </tr>
 
     <tr>
-   		<td>4/19/2017</td>
-   		<td>Today I started leaning into The Odin Project. I really liked FreeCodeCamp, and I think I'll keep at it, but I want to get out of the sandbox and start building tangible projects to stay motivated. So, today I created a Ubuntu dualboot environment and finished the install fest for Ruby, Rails, Sublime and what feels like a dozen more!  After optimizing all that, I'm finally ready to dive into the command line and hopefully that'll make Git a little more approachable when I circle back around for it. </td>
-   	</tr>
-   	<tr><td>4/18/2017</td><td>Using some skills learned from FreeCodeCamp, I created this personal webpage which uses HTML5, CSS3, and Bootstrap.  I also added a small amount of flair using FontAwesome.</td></tr>
-   	<tr><td></td></tr>
+      <td>4/19/2017</td>
+      <td>Today I started leaning into The Odin Project. I really liked FreeCodeCamp, and I think I'll keep at it, but I want to get out of the sandbox and start building tangible projects to stay motivated. So, today I created a Ubuntu dualboot environment and finished the install fest for Ruby, Rails, Sublime and what feels like a dozen more!  After optimizing all that, I'm finally ready to dive into the command line and hopefully that'll make Git a little more approachable when I circle back around for it. </td>
+    </tr>
+   
+    <tr><td>4/18/2017</td>
+    <td>Using some skills learned from FreeCodeCamp, I created this personal webpage which uses HTML5, CSS3, and Bootstrap.  I also added a small amount of flair using FontAwesome.</td></tr>
    </table>
    
-  <div>
-   
-      <a name="portfolio"></a><br>
       
-      <h2>Portfolio</h2> 
- 
-  <table class="cTable">
-  	<tr style="max-width:50%">
-  		<td><a href="https://github.com/ajgalle"><img class="port" src="images/githublog.jpg" alt="github"/></a></td>
-  		<td><a href="http://www.theodinproject.com/users/72753"><img class="port" src="images/odinLogo.jpg" alt="The Odin Project"/></a></td>  
-  		<td><a href="https://codepen.io/ajgalle/"><img class="port" src="images/codepenLogo.jpg" alt="codepen"/></a></td>
-  		<td><a href="https://www.freecodecamp.com/ajgalle"><img class="port" src="images/freecodecampLogo.jpg" alt="freecodecamp"/></a></td>
-  		
-  		  	
-  </table>
- 
-   
-<br><br><br>
-<a name="about"></a>
-   <h2> About  </h2>
-   
-   <img class="img-responsive headshot" src="http://andrewgalle.elementfx.com/images/headshot.jpg" alt="Andrew J. Galle">
-   <p> I am a Norfolk, Virginia resident currently learning Web Development.  I've also been studying Japanese and look for every opportunity to use and improve it. As a result I've created this website to have an opportunity to combine both of my interests. </p> 
-    <p> Every so often, I'll write a short journal entry to let you know where I've been and what I plan to tackle next.  Unless stated otherwise, everything you see here is made from scratch. Thank you kindly for taking the time to review my work. </p>
+      
+  
+  
+  <footer>
 
-    <br>
-    <p> 最近私は日記に書くことにしました。時々、私は短い日記を加えるつもりです。こんな風に、あなたは有能を分かることができました。それに、多分どこへ行く予定を学べます。</p>
-    <p> 読んで呉れてありがとございました。</p>
-    <p>　よろしくおねがします</p>
-    <br>
-    <p> ところで、ノーフォーク (バージニア州)にいたら、連絡してくれてお願いします！案内できます!</p>
-<br><br>   
+    <p> Copyright 2017 Andrew J. Galle </p>
 
-      <h2>Contact</h2>
-      <br><br>
-      <a name="contact"></a>
-Please feel free to follow or contact me anytime.
+  </footer>
 
-  </section>
-  </article>
-
-  <footer class="text-center style="clear:both">
-    Copyright &copy 2017 Andrew Galle </footer>
 </body>
+
+
 </html>
