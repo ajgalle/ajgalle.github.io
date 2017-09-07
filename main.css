@@ -4,7 +4,17 @@ body{
     background-color: black;
     color: white;
 }
+.logo-bar{
+    width:100%;
+}
+.sm-logo{
+    border-radius: 5%;
+    margin: auto;
+    width:50px;
+    border: 5px solid darkgray;
 
+  
+}
 h1{
     text-align: center;
     font-size: 5em;
@@ -35,9 +45,11 @@ a{
     display: block;
 
 }
+
+
 .headshot{
     display:flex;
-    margin:20px;
+  
     width: 50%;
     margin: auto;
     padding: 25px;
@@ -57,10 +69,19 @@ a{
 }
 
 /* For the gallery */
-.gallery{
+.gallery {
     display: flex;
-    flex-wrap: wrap;
+     flex-wrap: wrap;
     justify-content: center;
+}
+h2 {
+    font-family: 'Patua One', cursive;
+    font-size: 60px;
+}
+h3 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+   text-align:center;
 }
 
 .view {
@@ -95,6 +116,7 @@ a{
     position: relative;
     font-size: 17px;
     padding: 10px;
+    
     background: rgba(0, 0, 0, 0.8);
     margin: 20px 0 0 0
 }
@@ -129,13 +151,13 @@ a{
 	opacity: 0;
 	transform: scale(0) rotate(-180deg);
 	transition: all 0.4s ease-in;
-    border-radius: 0px;
+    border-radius: 0;
 }
 .view-fourth h2{
     opacity: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     background: transparent;
-    margin: 20px 40px 0px 40px;
+    margin: 20px 40px 0 40px;
 	transition: all 0.5s ease-in-out;
 }
 .view-fourth p { 
@@ -186,10 +208,11 @@ a{
 
 .logo{
     width:250px;
-    height:70px;
+    height:250px;
     border-radius: 15%;
     margin:5px;
 }
+
 
 footer{
     margin-top:150px;
