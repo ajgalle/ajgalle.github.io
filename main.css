@@ -1,8 +1,9 @@
 /* for the navbar */
 
-body{
+body {
     background-color: black;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 .logo-bar{
     width:100%;
@@ -29,6 +30,9 @@ nav{
 
 a{
     text-decoration: none;
+}
+a:hover{
+    text-shadow:4px 0 4px darkgrey;
 }
 
 .flexitem{
@@ -82,7 +86,9 @@ h3 {
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
    text-align:center;
+   color:slateblue;
 }
+
 
 .view {
     width: 300px;
@@ -187,16 +193,24 @@ h3 {
 
 /* For the progress log */
 
-.logTable{
-   width:80%;
+#logTable{
+   width:90%;
    border: 1px solid white;
    margin: auto;
- 
+   
 }
 
-.logTable td{
-    border:1px solid white;
+#logTableDiv {
+    display: none;
+}
+
+#logTable td {
+    border: 1px solid white;
     margin: auto;
+    padding: 12px;
+}
+#logTable td:hover{
+    background-color:#333;
 }
 
 .contactTable{
