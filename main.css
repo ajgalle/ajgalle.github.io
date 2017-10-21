@@ -1,8 +1,27 @@
+/*Background video*/
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+
+
 /* for the navbar */
 
 body {
     background-color: black;
-    color: white;
+    color: palegoldenrod;
     font-family: 'Poppins', sans-serif;
 }
 .logo-bar{
@@ -25,7 +44,8 @@ nav{
     display: flex;
     text-align: center;
     line-height: 50px;
-
+    opacity:0.6;
+    background-color:blue;
 }
 
 a{
@@ -59,13 +79,14 @@ a:hover{
     padding: 25px;
     min-width: 500px;
     justify-content: center;
-}
-.headshot img{
-    width: 350px;
-    height: 350px;
-    border-radius:50%;
 
 }
+    .headshot img {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        border: solid 5px grey;
+    }
 .headshot p {
     flex: 1 0 0;
     font-size:24px;
@@ -86,7 +107,7 @@ h3 {
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
    text-align:center;
-   color:slateblue;
+   color: palegoldenrod;
 }
 
 
