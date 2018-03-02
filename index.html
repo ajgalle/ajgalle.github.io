@@ -1,235 +1,200 @@
-﻿
-<!DOCTYPE html>
-
+﻿<!doctype html>
 <html lang="en">
 <head>
-    <title>Andrew J. Galle | Portfolio Page</title>
 
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
-    <link href="main.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
-    <script src="myScript.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+    <link href="css/lux/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="site.css" />
+
+    <title>Andrew J. Galle | Portfolio </title>
 </head>
-
-
 <body>
 
-    <video autoplay muted loop id="bgvid" >
-        <source src="images/background/background2.mp4" type="video/mp4">
-    </video>
-
-    <nav>
-        <a href="#Portfolio" class="flexitem">Portfolio</a>
-        <a href="#Contact" class="flexitem">Contact</a>
-        <a href="#Progress" class="flexitem">Progress Log</a>
+    <!--NAV BAR-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#contact">Andrew J. Galle</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor03">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Featured Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-
-    <h1> Andrew.j.galle </h1>
-
-    <div class="headshot">
-
-        <p> Hi, I'm Andrew. I make all kinds of responsive web designs and databases in the Norfolk, Virginia area. <a href="mailto:agalle@gmu.edu"><strong>How can I help?</strong></a> </p>
-
-        <img src="images/headshot.jpg" alt="Andrew J. Galle">
-
-    </div>
-
-    <div style="text-align:center">
-        <img class="sm-logo" src="images/csharp.png" alt="csharp.png" />
-        <img class="sm-logo" src="images/ado-net.PNG" alt="ADO.png" />
-        <img class="sm-logo" src="images/visual_studio_purple.png" alt="visualstudio" />
-        <img class="sm-logo" src="images/sqlserver.png" alt="MS SQL" />
-        <img class="sm-logo" src="images/github.png" alt="github" />
-        <img class="sm-logo" src="images/JSON.png" alt="json" />
-        <img class="sm-logo" src="images/jquery.png" alt="jquery" />
-        <img class="sm-logo" src="images/Bootstrap.png" alt="bootstrap" />
-        <img class="sm-logo" src="images/HTML5.png" alt="html5" />
-        <img class="sm-logo" src="images/css3.png" alt="css3" />
-        <img class="sm-logo" src="images/javascript.png" alt="js" />
-    </div>
-
-    <h2 id="Portfolio"> Portfolio </h2>
-    <br />
-
-    <div>
-        <h3>ASP.net MVC Featured Projects</h3>
-   
-        <div class="gallery">
-            <div class="view view-fourth">
-                <img src="images/overtime.jpg" alt="SignMeUp" />
-                <div class="mask">
-                    <h2>SignMeUp!</h2>
-                    <p>A MVC C# app powered by Entity Framework and MS SQL</p>
-                    <a href="http://signmeup.gear.host/" class="info">Project</a> | <a class="info" href="https://github.com/ajgalle/SignMeUpMVC">GitHub</a>
-                </div>
+    <!--/NAV BAR-->
+    <!-- About me-->
+    <div id="about" class="container-fluid">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4 my-auto">
+                <p style="font-size:20px">Full-stack web development.  Mobile first responsiveness. ASP.net MVC, SQL, and dB design. </p>
+                <p style="font-size:20px"> Hi, I'm Andrew.  <a href="#contact"> How can I help?</a></p>
             </div>
-        </div>
-
-    </div>
-
-    <div>
-
-        <h3>ASP.net WebForms Featured Projects</h3>
-
-
-        <div class="gallery">
-            <div>
-                <div class="view view-fourth">
-                    <img src="images/inventoryApp.jpg" alt="InventoryApp" />
-                    <div class="mask">
-                        <h2>Inventory Management App</h2>
-                        <p>
-                            A mobile responsive ADO.net and C# powered Web Forms app.
-                            <a href="http://inventoryApp.gear.host" class="info">Project</a> | <a href="https://github.com/ajgalle/InventoryApp" class="info"> Code</a>
-                        </p>
-                    </div>
-                </div>
+            <div class="col-md-4">
+                <img src="images/headshot.jpg" class="headshot hide-md-down" alt="Andrew J. Galle" />
             </div>
-        </div>
-
-    </div>
-   
-
-    <h3>Web Tools Featured Projects</h3>
-    <br />
-    <br />
-    <div class="gallery">
-    <div class="view view-fourth">
-        <img src="images/chuck.jpg" alt="Quote Generator" />
-        <div class="mask">
-            <h2>Random Quote Generator</h2>
-            <p>A JavaScript, jQuery and Flexbox page accessing an external API.</p>
-            <a href="quoteGenerator/index.html" class="info">View Page</a> | <a href="https://github.com/ajgalle/ajgalle.github.io/tree/master/quoteGenerator" class="info">View Code</a>
+            <div class="col-md-2"></div>
         </div>
     </div>
+    <!-- /About-->
+    <!-- Projects-->
+    <br /><br /><br /><br /><br />
+                            <div class="container">
+                                <h2 id="projects" class="display-3"> Portfolio </h2>
+                                <div class="card-deck container">
+                                    <div class="card text-white bg-info">
+                                        <img class="card-img-top" src="images/overtime.jpg" alt="Overtime Management">
+                                        <div class="card-body">
+                                            <h5 class="card-title">SignMeUp</h5>
+                                            <p class="card-text">A MVC C# app powered by Entity Framework and MS SQL</p>
+                                            <a href="http://signmeup.gear.host/" class="info">Project</a> | <a class="info" href="https://github.com/ajgalle/SignMeUpMVC">GitHub</a>
+                                        </div>
+                                    </div>
+                                    <div class="card text-white bg-info">
+                                        <img class="card-img-top" src="images/comingsoon.jpg" alt="Coming soon">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Coming Soon</h5>
+                                            <p class="card-text"> More are coming soon. </p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
 
-    <div class="view view-fourth">
-        <img src="images/weatherCake.png" alt="Weather API"  />
-        <div class="mask">
-            <h2>Weather API Cake Checker</h2>
-            <p>Using external APIs to check the weather</p>
-            <a href="https://codepen.io/ajgalle/pen/wdmmMe" class="info">View on CodePen</a>
-        </div>
-    </div>
+                                <br />    <br />    <br /> <br /><br />
+                                <h3 class="display-5">ASP.net WebForms Featured Projects</h3>
+                                <br />
+                                <div class="card-deck container">
+                                    <div class="card text-white bg-info">
+                                        <img class="card-img-top" src="images/inventoryApp.jpg" alt="Inventory App">
+                                        <div class="card-body">
+                                            <h5 class="card-title">ADO.net Inventory App</h5>
+                                            <p class="card-text">
+                                                A mobile responsive ADO.net and C# powered Web Forms app. <a href="http://inventoryApp.gear.host" class="info">Project</a> | <a href="https://github.com/ajgalle/InventoryApp" class="info"> Code</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card text-white bg-info">
+                                        <img class="card-img-top" src="images/comingsoon.jpg" alt="Coming Soon">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">More are on the way.</p>
+                                        </div>
+                                    </div>
+                                </div>
 
-    <div class="view view-fourth">
-        <img src="images/sanshiro.jpg" alt="freeCodeCamp Sanshiro Project" />
-        <div class="mask">
-            <h2>Tribute Page</h2>
-            <p>A descriptive page for a hero, using HTML5,CSS3,Bootstrap. [freeCodeCamp Project]</p>
-            <a href="https://codepen.io/ajgalle/full/qrKgpO/" class="info"> View on CodePen</a>
-        </div>
-    </div>
+                                <br />    <br />    <br /> <br /><br />
 
+                                <h3 class="display-5">Web Tools Featured Projects</h3>
+                                <br />
+                                <div class="card-deck container">
+                                    <div class="card text-white bg-info">
+                                        <img class="card-img-top" src="images/chuck.jpg" alt="Random Quote Generator">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Random Quote Generator</h5>
+                                            <p class="card-text">
+                                                A JavaScript, jQuery and Flexbox page accessing an external API.
+                                                <a href="quoteGenerator/index.html" class="info">View Page</a> | <a href="https://github.com/ajgalle/ajgalle.github.io/tree/master/quoteGenerator" class="info">View Code</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card text-white bg-info">
+                                        <img class="card-img-top" src="images/weatherCake.png" alt="Weather Cake">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Weather Cake</h5>
+                                            <p class="card-text">Using external APIs to check the weather. <a href="https://codepen.io/ajgalle/pen/wdmmMe" class="info">View on CodePen</a> </p>
+                                        </div>
+                                    </div>
+                                    <div class="card text-white bg-info">
+                                        <img class="card-img-top" src="images/sanshiro.jpg" alt="Sanshiro">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Sanshiro</h5>
+                                            <p class="card-text">A descriptive page for a hero, using HTML5,CSS3,Bootstrap. [freeCodeCamp Project] <a href="https://codepen.io/ajgalle/full/qrKgpO/" class="info"> View on CodePen</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="card text-white bg-info">
+                                        <img class="card-img-top" src="images/googleLogo.png" alt="Google Mimic">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Google Homepage Mimic</h5>
+                                            <p class="card-text"> Use CSS3 and HTML5 to mimic Google's homepage. [Odin Project task] <a href="http://htmlpreview.github.com/?https://github.com/ajgalle/google-homepage/blob/master/index.html" class="info">Project</a> | <a href="https://github.com/ajgalle/google-homepage" class="info"> Code</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="card text-white bg-info">
+                                        <img class="card-img-top" src="images/foodar.jpg" alt="Foodar">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Foodar Food Delivery</h5>
+                                            <p class="card-text">
+                                                A project using Javascript, modals, flexbox, HTML5 and CSS3.<a href="https://app.revature.com/project/foodar-100">[Revature Pro Project]</a>
+                                                <a href="foodar/index.html" class="info">Project</a>|<a href="https://www.github.com/ajgalle/foodar100" class="info">Repo</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
 
-       <div class="view view-fourth">
-              <img src="images/googleLogo.png" alt="Google Homepage Project" />
-                <div class="mask">
-                    <h2>Google Homepage</h2>
-                    <p>
-                        Use CSS3 and HTML5 to mimic Google's homepage. [Odin Project task]
-                    </p>
-                    <a href="http://htmlpreview.github.com/?https://github.com/ajgalle/google-homepage/blob/master/index.html" class="info">Project</a> | <a href="https://github.com/ajgalle/google-homepage" class="info"> Code</a>
-                </div>
-            </div>
-        
-        <div class="view view-fourth">
-            <img src="images/foodar.jpg" alt="Foodar" />
-            <div class="mask">
-                <h2>Food Delivery</h2>
-                <p>A project using Javascript, modals, flexbox, HTML5 and CSS3.<a href="https://app.revature.com/project/foodar-100">[Revature Pro Project]</a></p>
-                <a href="foodar/index.html" class="info">Project</a>|<a href="https://www.github.com/ajgalle/foodar100" class="info">Repo</a>
-            </div>
-        </div>
-        <div class="view view-fourth">
-            <img src="images/comingsoon.jpg" alt="Coming Soon!" />
-            <div class="mask">
-                <h2>Coming soon!</h2>
-                <p>As soon as possilbe!</p>
-                <a href="#" class="info">Thanks for watching!</a>
-            </div>
-        </div>
-    </div>
-    <br />
-    <div>
-        <h2 id="Contact">Contact</h2>
-        <br />
-    </div>
+                                <br />    <br />    <br /> <br /><br />
 
-    <table class="contactTable">
-        <tr>
-            <td><a href="mailto:agalle@gmu.edu"><img alt="email me" src="images/email.png" height=200 width=200></a><br></td>
-            <td> Please feel free to send me an email. </td>
-        </tr>
-        <tr>
-            <td> You can also follow me or view my work on GitHub. </td>
-            <td>
-                <a href="https://github.com/ajgalle"><img style="border-radius:15% 0 15% 0;width:150px;height:150px; border:5px solid indigo" alt="GitHub" src="images/github.png"></a><br>
-            </td>
-        </tr>
-    </table>
+                                <!-- /Projects-->
+                                <!-- Contact Me-->
+                                    <div id="contact">
 
+                                        <h3 class="display-3"> Contact </h3>
+                                     <br />    <br />    <br /> <br /><br />
 
+                                    </div>
+                                    <form action="https://getsimpleform.com/messages?form_api_token=bf29c9f2391320e60784b9221f91bbaf" method="post">
+                                        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                                        <input type='hidden' name='redirect_to' value='http://fooey.com/thank-you.html>' />
+                                        <div class="form-row">
+                                            <div class="form-group">
+                                                <label for="inputFirstName">First Name</label>
+                                                <input type="text" class="form-control" id="inputFirstName" placeholder="" required>
+                                                <label for="inputLastName">Last Name</label>
+                                                <input type="text" class="form-control" id="inputLastName" placeholder="" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-6">
+                                                <label for="inputEmail4">Email</label>
+                                                <input type="email" class="form-control" id="inputEmail4" placeholder="name@example.com" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-6">
+                                                <label for="inputPhone">Phone</label>
+                                                <input type="tel" class="form-control" id="inputPhone" placeholder="(555) 555-5555" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-6">
+                                                <label for="comment">How can I help?</label>
+                                                <textarea class="form-control" id="comment" rows="8" cols="200" maxlength="5000" required></textarea>
+                                            </div>
+                                        </div>
+                                        <p> I always try to respond within 24 hours. </p>
+                                        <button type="submit" value="submit" class="btn btn-primary">Submit</button>
+                                    </form>
+                                </div>
+                            
+    <!-- /Contact me-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
 
-    <h2 id="Progress"> Progress Log </h2>
-    <div id="revealLog"><h3><a style="color:darkred"> Click here to see what I'm working on.</a></h3></div>
-    <div id="logTableDiv">
-        <table id="logTable">
-            <tr>
-                <td>10/10/2017</td>
-                <td>Today I uploaded an overtime management system demo featuring MVC and Entity Framework.  It also relies heavily on bootstrap and jQuery.</td>
-            </tr>
-            <tr>
-                <td>9/06/2017</td>
-                <td>Just a quick update to showcase some WebForms projects I've been working on.  First up is a ADO.net/C#/ASP.net app I made to help warehouse workers log what comes in and out. The tricky parts were with how to get all the techologies to play nice together.  For example, getting an external javascript file to use jQuery to grab a server side control to animate it was oddly difficult. Next up I'll try a MVC project with Entity framework.</td>
-            </tr>
-
-            <tr>
-                <td>7/14/2017</td>
-                <td>Recently I've had a choice on how to go forward.  Either I could move on to starting Angular 2, or try to learn C#. I keep running into frustrating problems by not knowing a backend server side language and it seems there a lot of jobs in my area that want C#, so I've been moving in that direction. The material is pretty dense, so it will take a while before I have anything worthwhile that I can upload, but hopefully soon.  Right now I've moved from console apps to simple drag and drop forms, but I really want to get into the web development using ASP.net with C#, and it seems that path leads to MVC 5 and SQL, which is really complicated for me right now. Slow and steady.</td>
-            </tr>
-            <tr>
-                <td>5/26/2017</td>
-                <td>Finally uploaded some of my APIs utalizing projects from freeCodeCamp. In the meantime, please enjoy my RevaturePro project, Foodar.  It incorporates Javascript to check zipcodes, calculate totals, and more.  It also uses some new tricks they taught me with fetching form data and writing text over images. If you haven't heard of them, you should <a href='https://revature.com'>check them out. </a></td>
-            </tr>
-
-            <tr>
-                <td>5/04/2017</td>
-                <td>Finally I am ready to start making new projects with freeCodeCamp that use APIs, JavaScript, and more! They estimate it will take over 100 hours to complete these tasks. I redesigned the site today to prepare to showcase them.  Now the site uses Flexbox and some CSS3 animations. </td>
-            </tr>
-            <tr>
-                <td>5/02/2017</td>
-                <td>Today I finally finished the last of the "think like a programmer" tasks on freeCodeCamp.  That's things like using for loops to iterate through arrays, reversing strings, getting my feet wet with regular expressions and other basic algorithim concepts.  I'm very  much looking forward to building something so I can apply all this.   </td>
-            </tr>
-            <tr>
-                <td>4/30/2017</td>
-                <td>To get more experience with using Git and Gitcommits from the command line in linux, I've transitioned this page to githubpages. I will miss my cPanel capable site, but it should pay off in the long run.  </td>
-            </tr>
-
-            <tr>
-                <td>4/19/2017</td>
-                <td>Today I started leaning into The Odin Project. I really liked FreeCodeCamp, and I think I'll keep at it, but I want to get out of the sandbox and start building tangible projects to stay motivated. So, today I created a Ubuntu dualboot environment and finished the install fest for Ruby, Rails, Sublime and what feels like a dozen more!  After optimizing all that, I'm finally ready to dive into the command line and hopefully that'll make Git a little more approachable when I circle back around for it. </td>
-            </tr>
-
-            <tr>
-                <td>4/18/2017</td>
-                <td>Using some skills learned from FreeCodeCamp, I created this personal webpage which uses HTML5, CSS3, and Bootstrap.  I also added a small amount of flair using FontAwesome.</td>
-            </tr>
-        </table>
-    </div>
-
-
-    <footer>
-
-        <p> Copyright 2017 Andrew J. Galle </p>
-
-    </footer>
 
 </body>
-
 </html>
